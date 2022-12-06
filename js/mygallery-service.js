@@ -6,12 +6,15 @@ var gProjects = [
     { id: 'inpicture', name: 'In-Picture-Game', title: 'Guess The Show', desc: 'guess every show correctly to win the game', url: 'https://shellypaxtoneliyahu.github.io/in-picture-game/', publishedAt: 'milisec', labels: ['images', 'click events'] },
     { id: 'touchnums', name: 'Touch-Nums-Game', title: 'Touch all the numbers', desc: 'touch the numbers by their order to clear the board and win', url: 'https://shellypaxtoneliyahu.github.io/touch-nums-game/', publishedAt: 'milisec', labels: ['table', 'click events'] }
 ]
+// console.log(gProjects)
 
 function getProjects() {
+//    console.log('dsjvh')
     return gProjects
 }
 
 function getProjectById(projectId) {
+    // console.log('aSSAD')
     const project = gProjects.find(project => project.id === projectId)
     return project
 }
